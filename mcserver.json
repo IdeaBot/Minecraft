@@ -1,0 +1,28 @@
+{
+  "version":{
+    "api":"v0.0.1",
+    "type":"ui-json"
+  },
+  "info":{
+    "name":null,
+    "description":"Minecraft server status using the [mcapi.us](https://mcapi.us) API",
+    "help":"**Usage**\n```@Idea minecraft <ip> ```\nWhere\n**`<ip>`** is the IP or URL of the minecraft server\n(including port, if applicable)",
+    "package":"Minecraft",
+    "filepath":"addons/Minecraft/mcserver.py",
+    "maintainers": [],
+    "owner": "106537989684887552"
+  },
+  "lifespan":3600,
+  "persistence":false,
+  "private":true,
+  "directOnly":true,
+  "shouldCreate":"shouldCreate",
+  "onCreate":"onCreate",
+  "onDelete":null,
+  "onPersist":null,
+  "onReaction":{},
+  "defaultEmbed":{
+    "description":"Loading Server Info...",
+    "footer":{"text":"Minecraft API (mcapi.us)", "icon_url":null}
+  }
+}
